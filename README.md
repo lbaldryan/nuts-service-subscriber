@@ -40,10 +40,11 @@ Located at: `src/main/resources/application.properties`
 ```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/nutsdb
 spring.datasource.username=postgres
-spring.datasource.password='password'
+spring.datasource.password=098148675
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 
 spring.rabbitmq.host=localhost
 spring.rabbitmq.username=guest
