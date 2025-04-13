@@ -73,7 +73,7 @@ spring.rabbitmq.password=guest
 
 ## Run the Application
 
-Running NutsSubscriberApplication 
+Running NutsSubscriberApplication.java
 
 Once your application is running, go to the Queues tab → click nutsQueue → go to Publish message, enter a payload (e.g. Hello from RabbitMQ UI!), and click Publish Message. Your app will receive the message and store it in the database.
 
